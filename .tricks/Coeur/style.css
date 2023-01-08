@@ -1,0 +1,12 @@
+body {  
+    background-color: #000;    
+    margin: 0;   
+    background-repeat: no-repeat;  
+   }  
+  
+  p {
+    color: pink;
+    text-align: center;
+    font-size: xx-large;
+    font-family: monospace;
+  }
