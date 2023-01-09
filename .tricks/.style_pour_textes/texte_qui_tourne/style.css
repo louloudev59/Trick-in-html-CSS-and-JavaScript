@@ -1,0 +1,46 @@
+body {
+
+    background-color: #111;/*Couleur du fond */
+  
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;/*Comment sont aligner */
+  
+    min-height: 100vh;
+  
+  }
+  .vague {
+  
+    position: relative;/*Position dans le document */
+  
+  }
+  
+  .vague span {
+  
+    position: relative;/*Position dans le document */ 
+  
+    display: inline-block;
+  
+    font-size: 60px;/*Taille du texte */ 
+  
+    color: red;/*Couleur du texte */ 
+  
+    text-transform: uppercase;
+  
+    animation: flip 2s infinite;/*L'animation se répète à l'infini */ 
+  
+    animation-delay: calc(.2s * var(--i))/*Calcul du délai de l'animation */ 
+  
+  }
+  
+  @keyframes flip {
+  
+    0%,80% {
+  
+      transform: rotateY(360deg) /*La rotation des lettres par rapport à y */ 
+  
+    }
+  
+  }
